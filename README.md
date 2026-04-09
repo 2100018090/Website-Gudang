@@ -1,6 +1,6 @@
 # 📚 Website Gudang
 
-Aplikasi web untuk pengelolaan data barang pada sistem gudang.
+Aplikasi web untuk pengelolaan data barang pada sistem gudang dengan supplir.
 
 ---
 
@@ -11,6 +11,8 @@ Sistem Gudang Barang merupakan aplikasi berbasis web yang digunakan untuk:
 - Pendataan barang masuk dan keluar
 - Manajemen stok barang
 - Pengelolaan kategori barang
+- Crud barang dan kategori
+- Detail Barang Masuk dan Barang Keluar
 - Monitoring aktivitas gudang
 
 ---
