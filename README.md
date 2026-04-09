@@ -12,7 +12,8 @@ Sistem Gudang Barang merupakan aplikasi berbasis web yang digunakan untuk:
 - Manajemen stok barang
 - Pengelolaan kategori barang
 - Crud barang dan kategori
-- Detail Barang Masuk dan Barang Keluar
+- Detail barang masuk dan barang keluar
+- Menggelolah supplir
 - Monitoring aktivitas gudang
 
 ---
