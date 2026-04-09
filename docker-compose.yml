@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: npm run dev -- --host
+
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/var/www/html
+    working_dir: /var/www/html
+    command: php -S 0.0.0.0:8080 -t public
+
+networks:
+  default:
+    external:
+      name: mardeka-net
+  
